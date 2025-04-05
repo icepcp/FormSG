@@ -6,7 +6,7 @@ import { ClientEnvVars } from '../../../../../shared/types'
 
 const getClientEnvWithFetch = async () => {
   const response = await fetch(
-    `${import.meta.env.VITE_APP_URL}/api/v3/client/env`,
+    `https://formsg-1.fly.dev/api/v3/client/env`,
   )
   if (response.ok) {
     const env = await response.json()
