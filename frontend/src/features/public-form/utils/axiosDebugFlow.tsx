@@ -30,7 +30,7 @@ const getClientEnvWithFetch = async () => {
 const getClientEnvWithAxios = async () => {
   try {
     const env = await ApiService.get<ClientEnvVars>(
-      `${import.meta.env.VITE_APP_URL}/api/v3/client/env`,
+      `https://formsg-1.fly.dev/api/v3/client/env`,
     ).then(({ data }) => data)
 
     datadogLogs.logger.info(`handleSubmitForm: axios env vars successful`, {
