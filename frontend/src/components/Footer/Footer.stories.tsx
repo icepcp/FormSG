@@ -50,7 +50,7 @@ CompactVariant.args = {
 export const WithTagline = Template.bind({})
 WithTagline.args = {
   ...DEFAULT_ARGS,
-  tagline: 'Build secure government forms in minutes',
+  tagline: 'Build secure BuildingBloCS forms in minutes',
 }
 
 export const Mobile = Template.bind({})

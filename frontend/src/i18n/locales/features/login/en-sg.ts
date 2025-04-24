@@ -2,7 +2,7 @@ import { Login } from '.'
 
 export const enSG: Login = {
   LoginPage: {
-    slogan: 'Build secure government forms in minutes',
+    slogan: 'Build secure BuildingBloCS forms in minutes',
     banner: 'You can now collect payments directly on your form!',
     expiredSgIdSession:
       'Your sgID login session has expired. Please login again.',
@@ -23,7 +23,7 @@ export const enSG: Login = {
   components: {
     LoginForm: {
       onlyAvailableForPublicOfficers:
-        'Log in with a .gov.sg or other whitelisted email address',
+        'Log in with a team.buildingblocs.sg or other whitelisted email address',
       emailEmptyErrorMsg: 'Please enter an email address',
       login: 'Log in',
       haveAQuestion: 'Have a question?',

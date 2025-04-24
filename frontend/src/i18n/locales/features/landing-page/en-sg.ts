@@ -2,7 +2,7 @@ import { LandingPage } from '.'
 
 export const enSG: LandingPage = {
   hero: {
-    title: 'Build secure government forms in minutes.',
+    title: 'Build secure BuildingBloCS forms in minutes.',
     subtitle:
       'Instant, customisable forms with zero code or cost, to safely collect classified and sensitive data.',
     ctaButtonLabel: 'Start building your form now',
@@ -45,15 +45,15 @@ export const enSG: LandingPage = {
   getStartedSection: {
     title: 'No onboarding, no fees, no code.',
     subtitle:
-      'Sign in with your government email address, and start building forms immediately. It’s free, and requires no onboarding or approvals.',
+      'Sign in with your BuildingBloCS email address, and start building forms immediately. It’s free, and requires no onboarding or approvals.',
     ctaButtonLabel: 'Get started',
   },
   usedByAgenciesSection: {
-    title: 'Used by most government agencies',
+    title: 'Used by most organizers',
     formsLaunched: 'forms launched',
     submissionsReceived: 'submissions received',
-    publicOfficersOnboard: 'public officers onboard',
-    governmentAgencies: 'government agencies',
+    publicOfficersOnboard: 'organizers onboard',
+    governmentAgencies: 'departments',
     exampleUserTitle: 'Examples of users of FormSG',
   },
   useCaseSection: {

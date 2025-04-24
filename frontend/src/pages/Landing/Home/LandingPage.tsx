@@ -265,46 +265,6 @@ export const LandingPage = (): JSX.Element => {
         <VisuallyHidden>
           {t('features.landingPage.usedByAgenciesSection.exampleUserTitle')}
         </VisuallyHidden>
-        <Wrap
-          shouldWrapChildren
-          mt="4rem"
-          spacing={{ base: '2.5rem', md: '4.5rem' }}
-        >
-          <Image
-            alt="Immigration and Checkpoints Authority"
-            src={restrictedIcaLogo}
-          />
-          <Image alt="Ministry of Education" src={restrictedMoeLogo} />
-          <Image alt="Ministry of Manpower" src={restrictedMomLogo} />
-          <Image alt="National Parks Board" src={restrictedNparksLogo} />
-          <Image alt="Ministry of Health" src={restrictedMohLogo} />
-          <Image alt="People's Association" src={restrictedPaLogo} />
-          <Image alt="Ministry of Foreign Affairs" src={restrictedMfaLogo} />
-          <Image
-            alt="Ministry of Social and Family Development"
-            src={restrictedMsfLogo}
-          />
-        </Wrap>
-      </LandingSection>
-      <LandingSection bg="primary.100" align="center">
-        <SectionTitleText>
-          {t('features.landingPage.useCaseSection.title')}
-        </SectionTitleText>
-        <SectionBodyText textAlign={{ lg: 'center' }} mt="1rem">
-          {t('features.landingPage.useCaseSection.subtitle')}
-        </SectionBodyText>
-        <SimpleGrid
-          w="full"
-          columns={{ base: 1, lg: 3 }}
-          spacingX="5rem"
-          spacingY="1rem"
-          mt="2.5rem"
-        >
-          {LANDING_PAGE_EXAMPLE_FORMS.map((example, index) => (
-            <ExternalFormLink key={index} {...example} />
-          ))}
-        </SimpleGrid>
-        <Image src={meetingCollaborationImg} aria-hidden mt="5rem" />
       </LandingSection>
       <FeatureSection
         direction={{ base: 'column', lg: 'row' }}
